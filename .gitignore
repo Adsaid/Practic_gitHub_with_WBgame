@@ -1,36 +1,18 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,cvs
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,cvs
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-### CVS ###
-/CVS/*
-**/CVS/*
-.cvsignore
-*/.cvsignore
+# Other files and folders
+.settings/
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# Dump file  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/windows,cvs
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
